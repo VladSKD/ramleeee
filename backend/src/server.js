@@ -6,6 +6,8 @@ import morgan from "morgan";
 import externalService from "./routes/externalService.js";
 import gdpr from "./routes/gdpr.js";
 
+app.use('/api/connections', connectionsRouter)
+
 const app = express();
 const PORT = process.env.PORT || 4000;
 
