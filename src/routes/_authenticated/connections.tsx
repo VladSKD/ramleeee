@@ -6,7 +6,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/lib/ramle/auth";
 
 export const Route = createFileRoute("/_authenticated/connections")({
-  head: () => ({ meta: [{ title: "Коло друзів — RAMLE" }] }),
+  head: () => ({ meta: [{ title: "Коло друзів — RALLY" }] }),
   component: ConnectionsPage,
 });
 

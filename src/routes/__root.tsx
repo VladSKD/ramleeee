@@ -65,9 +65,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "RAMLE — справжня дружба для дорослих" },
-      { name: "description", content: "RAMLE — платформа для пошуку справжніх друзів у реальному житті. Без свайпів. З метою зустрічі офлайн протягом 48 годин." },
-      { property: "og:title", content: "RAMLE — справжня дружба для дорослих" },
+      { title: "RALLY — справжня дружба " },
+      { name: "description", content: "RALLY — платформа для пошуку справжніх друзів у реальному житті. Без свайпів. З метою зустрічі офлайн протягом 48 годин." },
+      { property: "og:title", content: "RALLY — справжня дружба " },
       { property: "og:description", content: "Знайдіть друзів за інтересами поруч із вами." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -9,7 +9,7 @@ import { useAuth } from "@/lib/ramle/auth";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "RAMLE — Досить свайпати. Час дружити." },
+      { title: "RALLY — Досить свайпати. Час дружити." },
       { name: "description", content: "Платонічні зустрічі офлайн протягом 48 годин. Знайдіть однодумців поруч." },
     ],
   }),
@@ -48,7 +48,7 @@ function Landing() {
                 <span className="text-primary">Час дружити.</span>
               </h1>
               <p className="mt-5 max-w-xl text-lg text-muted-foreground">
-                RAMLE з'єднує дорослих за реальними інтересами та допомагає зустрітися офлайн
+                RALLY з'єднує людей за реальними інтересами та допомагає зустрітися офлайн
                 протягом перших 48 годин. Без ігор. Без алгоритмів захоплення уваги.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -74,7 +74,7 @@ function Landing() {
         {/* FEATURES */}
         <section id="features" className="border-t bg-secondary/40 py-20">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="font-display text-3xl font-bold md:text-4xl">Що робить RAMLE інакшим</h2>
+            <h2 className="font-display text-3xl font-bold md:text-4xl">Що робить RALLY інакшим</h2>
             <p className="mt-2 max-w-2xl text-muted-foreground">
               Ми створюємо інструмент, а не залежність. Простота, безпека і реальні зустрічі.
             </p>
@@ -123,7 +123,7 @@ function Landing() {
                 <h2 className="font-display text-3xl font-bold md:text-4xl">Приватність — це фундамент</h2>
                 <p className="mt-3 max-w-2xl text-primary-foreground/80">
                   Ми мінімізуємо дані, не продаємо їх і дотримуємося GDPR. Ви завжди можете
-                  завантажити всі свої дані або повністю видалити акаунт у два кліки.
+                  завантажити всі свої дані або повністю видалити інформацію у два кліки.
                 </p>
               </div>
               <ul className="space-y-3">
@@ -146,7 +146,7 @@ function Landing() {
 
       <footer className="border-t py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 text-sm text-muted-foreground md:flex-row">
-          <p>© {new Date().getFullYear()} RAMLE. Створено для людей, які люблять реальне життя.</p>
+          <p>© {new Date().getFullYear()} RALLY. Створено для людей, які люблять реальне життя.</p>
           <div className="flex gap-6">
             <Link to="/login">Увійти</Link>
             <Link to="/register">Реєстрація</Link>

@@ -15,7 +15,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/lib/ramle/auth";
 
 export const Route = createFileRoute("/_authenticated/settings")({
-  head: () => ({ meta: [{ title: "Налаштування — RAMLE" }] }),
+  head: () => ({ meta: [{ title: "Налаштування — RALLY" }] }),
   component: SettingsPage,
 });
 
@@ -202,7 +202,7 @@ function SettingsPage() {
             </Button>
           </div>
           <div className="rounded-xl border border-destructive/40 p-4">
-            <p className="font-semibold text-destructive">Видалити акаунт</p>
+            <p className="font-semibold text-destructive">Видалити інформацію</p>
             <p className="mt-1 text-sm text-muted-foreground">Назавжди. Усі ваші дані, чати й метчі буде видалено.</p>
             <AlertDialog>
               <AlertDialogTrigger asChild>

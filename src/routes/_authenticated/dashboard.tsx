@@ -10,7 +10,7 @@ import { useAuth } from "@/lib/ramle/auth";
 import { approxDistanceKm, calcAge } from "@/lib/ramle/distance";
 
 export const Route = createFileRoute("/_authenticated/dashboard")({
-  head: () => ({ meta: [{ title: "Стрічка — RAMLE" }] }),
+  head: () => ({ meta: [{ title: "Стрічка — RALLY" }] }),
   component: Dashboard,
 });
 

@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { CalendarPlus } from "lucide-react";
 
 export const Route = createFileRoute("/_authenticated/events")({
-  head: () => ({ meta: [{ title: "Події — RAMLE" }] }),
+  head: () => ({ meta: [{ title: "Події — RALLY" }] }),
   component: EventsPage,
 });
 

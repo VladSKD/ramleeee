@@ -11,7 +11,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/lib/ramle/auth";
 
 export const Route = createFileRoute("/register")({
-  head: () => ({ meta: [{ title: "Створити акаунт — RAMLE" }] }),
+  head: () => ({ meta: [{ title: "Створити акаунт — RALLY" }] }),
   component: RegisterPage,
 });
 
@@ -50,7 +50,7 @@ function RegisterPage() {
     }
     // Adult-only enforcement (>=18)
     const age = (Date.now() - new Date(parsed.data.birth_date).getTime()) / (365.25 * 24 * 3600 * 1000);
-    if (age < 18) { toast.error("RAMLE — для дорослих (18+)"); return; }
+    if (age < 18) { toast.error("RALLY: Справжні друзі. Справжні пригоди"); return; }
 
     setBusy(true);
     const { error } = await supabase.auth.signUp({
@@ -84,7 +84,7 @@ function RegisterPage() {
         <div className="mb-6 flex justify-center"><Logo /></div>
         <div className="rounded-2xl border bg-card p-8 shadow-elevated">
           <h1 className="font-display text-2xl font-bold">Створіть акаунт</h1>
-          <p className="mt-1 text-sm text-muted-foreground">RAMLE — лише для дорослих (18+).</p>
+          <p className="mt-1 text-sm text-muted-foreground">RALLY: Справжні друзі. Справжні пригоди</p>
           <form className="mt-6 space-y-4" onSubmit={onSubmit} noValidate>
             <Field id="name" label="Ім'я" required>
               <Input id="name" name="name" autoComplete="given-name" required />

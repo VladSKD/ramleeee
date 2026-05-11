@@ -4,7 +4,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/lib/ramle/auth";
 
 export const Route = createFileRoute("/_authenticated/chats")({
-  head: () => ({ meta: [{ title: "Повідомлення — RAMLE" }] }),
+  head: () => ({ meta: [{ title: "Повідомлення — RALLY" }] }),
   component: ChatsLayout,
 });
 

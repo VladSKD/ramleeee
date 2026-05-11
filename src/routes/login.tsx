@@ -9,7 +9,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/lib/ramle/auth";
 
 export const Route = createFileRoute("/login")({
-  head: () => ({ meta: [{ title: "Увійти — RAMLE" }] }),
+  head: () => ({ meta: [{ title: "Увійти — RALLY" }] }),
   component: LoginPage,
 });
 
