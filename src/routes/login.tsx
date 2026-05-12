@@ -43,7 +43,7 @@ function LoginPage() {
         <div className="mb-6 flex justify-center"><Logo /></div>
         <div className="rounded-2xl border bg-card p-8 shadow-elevated">
           <h1 className="font-display text-2xl font-bold">З поверненням</h1>
-          <p className="mt-1 text-sm text-muted-foreground">Увійдіть, щоб знайти своє коло.</p>
+          <p className="mt-1 text-sm text-muted-foreground">Увійдіть, щоб знайти своє коло. Або підтвердіть свою електронну адресу опісля першої реєстрації</p>
           <form className="mt-6 space-y-4" onSubmit={onSubmit} noValidate>
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>

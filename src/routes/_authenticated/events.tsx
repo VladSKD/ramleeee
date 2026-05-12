@@ -14,7 +14,7 @@ function EventsPage() {
 
       <div className="mt-8 rounded-2xl border bg-card p-10 text-center">
         <CalendarPlus className="mx-auto h-10 w-10 text-primary" aria-hidden="true" />
-        <p className="mt-4 font-semibold">Запуск дуже скоро</p>
+        <p className="mt-4 font-semibold">Запуск дуже скоро! Ви будете здивовані</p>
         <p className="text-sm text-muted-foreground">
           Ми готуємо інструмент для створення прогулянок, ранкових пробіжок і кав'ярень-зустрічей у вашому місті.
         </p>
